@@ -1,5 +1,12 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Spectral SC', serif;
 }
 
 nav {
@@ -79,4 +86,15 @@ ul li.active a:after {
 #s3 {
     background-color: rebeccapurple;
     height: 700px;
+}
+
+
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #414141;
 }
