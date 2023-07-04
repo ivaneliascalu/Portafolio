@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos.css">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
+    <!-- Etiqueta para cambiar color de barra de direcciones y estado celular
+        https://ceslava.com/blog/cambiar-color-la-barra-direcciones-movil-barra-scroll-css/ 
+        -->
+    <meta name="theme-color" content="#2c3e50">
+    <!-- Etiqueta para cambiar color de barra de direcciones y estado celular  -->
 
-        <nav>
-            <ul>
-                <li class="active"><a href="#s0">Inicio</a></li>
-                <li><a href="#s1">Perfil</a></li>
-                <li><a href="#s2">Proyectos</a></li>
-                <li><a href="#s3">Ingresar</a></li>
-            </ul>
-        </nav>
-        <section id="s0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+    <title>Portafolio</title>
+</head>
 
-        </section>
-        <section id="s1">
+<body>
+    <nav>
+        <ul>
+            <li class="active"><a href="#s0">Inicio</a></li>
+            <li><a href="#s1">Perfil</a></li>
+            <li><a href="#s2">Proyectos</a></li>
+            <li><a href="#s3">Contacto</a></li>
+            <li><a href="#s4">Ingresar</a></li>
+        </ul>
+    </nav>
+    <section id="s0">
+        <input type="submit" class="botonsito1" value="setear" onclick="return setear();" />
+    </section>
+    <section id="s1">
 
-        </section>
-        <section id="s2">
+    </section>
+    <section id="s2">
+        <input type="submit" class="botonsito1" value="remover" onclick="return remover();" />
+    </section>
+    <section id="s3">
+        <input type="submit" class="botonsito1" value="getear" onclick="return getear();" />
+    </section>
+    <section id="s4">
 
-        </section>
-        <section id="s3">
-
-        </section>
-
-
-    </body>
+    </section>
+    <figure class="avatar"><img src="https://www.seoclerk.com/pics/319222-1IvI0s1421931178.png"></figure>
+</body>
 
 </html>
